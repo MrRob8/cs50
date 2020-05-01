@@ -1,0 +1,8 @@
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
