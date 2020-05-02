@@ -2,43 +2,46 @@
 <html>
     <head>
         <title>Programming in the Digital Age</title>
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     </head>
     <body>
       <main>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Project 0</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="content.html">Programming Languages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand ml-5" href="index.html">Project 0</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="content.html">Programming Languages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
         </nav>
-        <section>
-          <div class="container">
+        <section id="section-about">
+          <div class="about-container">
             <div class="about">
               <div class="about-author">
                 <img src="jr.jpg">
+                <h1 class="about-title">About Me</h1>
               </div>
-              <h1 class="about-title">About Me</h1>
               <div class="about-content">
                 <p>Hi there! I'm an aspiring web developer.</p>
-                <p>If you like my blog, please follow me on Facebook or Twitter
+                <p>If you like my page, please follow me on Facebook or Twitter
                   and tell your family and friends about it. If you want to get
                   in touch, please click on the contact link in the navigation
                   bar.</p>
@@ -47,10 +50,20 @@
           </div>
         </section>
         <footer>
-          <p>Author: Jose Rubio</p>
-          <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
-          <h4>My Story</h4>
-            <p>Hi there! I'm an aspiring web developer.</p>
+          <div class="container">
+            <div class="column">
+              <h4>My Links</h4>
+              <p>
+                <a href="#">Twitter</a>
+                <br>
+                <a href="#">Facebook</a>
+              </p>
+            </div>
+            <div class="column">
+              <h4>My Story</h4>
+              <p>Hi there! I'm an aspiring web developer.</p>
+            </div>
+          </div>
         </footer>
       </main>
     </body>
